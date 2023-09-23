@@ -1,0 +1,50 @@
+Git/GitHub
+
+Iniciando um repositório
+
+git init => cria um repositório dentro da pasta que está no CMD ou guit bash. 
+
+Git Status => serve para exibir arquivos existentes que estão adcionados ou não.
+
+git add nome do arquivo.extensão
+
+git add -A => irá adcionar todos os arquivos que não estão trackeados.
+
+git commit -m "adicionar comentário sobre a atualização feita" => cria um commit, para que as modificações possam serem enviadas para o Git/GitHub.
+
+git commit -am "adcionará o as arquivos não trackeados e adicionará comentário sobre a atualização feita"
+
+git log => exibe todos os commits criados.
+
+git reset --soft número inteiro do commit ou os sete primeiros => ele volta ao commit que for indicado e não excluirá as alterção do commit anterior, sendo necessário
+realizar o commit novamente.
+
+git reset --mixed número inteiro do commit ou os sete primeiros => ele volta ao commit que for indicado e não excluirá as alterção do commit anterior, mas será 
+necessário realizar a adção das alterações com add e depois realizar o commit novamente.
+
+git reset --hard número inteiro do commit ou os sete primeiros => ele ignorá todos os arquivos que foram dos commits anteriores.
+
+git branch nome do novo branch => para criar um branch
+
+git branch irá listar todos os branchs no git,o que tiver com asterísco, significa que é o branch que estamos no momento.
+
+git checkout nome do branch => Irá para o branch informado.
+
+git checkout HEAD -- nome do arquivo => irá voltar as informações do arquivo mencionado.
+
+git branch -d nomeDoBranchLocal => excluir um branch no local
+
+git push origin --delete nomeDoBranchRemoto => excluir um branch remoto
+
+git diff => mostrará as alterações feitas em cada arquivo.
+
+git diff --name-only => mostrará apneas o nome dos arquivos que foram alterados.
+
+git remote => serve para ver repositório remoto
+
+git remote -v => Para ver mais detalhes do repositório remoto
+
+
+
+
+
