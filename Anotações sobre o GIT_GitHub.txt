@@ -32,7 +32,12 @@ git checkout nome do branch => Irá para o branch informado.
 
 git checkout HEAD -- nome do arquivo => irá voltar as informações do arquivo mencionado.
 
-git branch -d nomeDoBranchLocal => excluir um branch no local
+git branch -d nomeDoBranchLocal => excluir um branch local
+
+git push origin :nome do branch remoto a ser excluído => para exluir um branch remoto
+
+git ignore => é uma arquivo podemos criá-lo dentro do vscode, para listar os arquivos que não queremos que fique visivel ao dar o comando git status, e comitá-lo e enviar
+ao repositório remoto. Para isso basta digitar o nome do arquivo a ser ignorado ou listar todos de uma determinada extensão, Ex. todos os arquivo TXT (*.txt).
 
 git push origin --delete nomeDoBranchRemoto => excluir um branch remoto
 
@@ -40,11 +45,24 @@ git diff => mostrará as alterações feitas em cada arquivo.
 
 git diff --name-only => mostrará apneas o nome dos arquivos que foram alterados.
 
-git remote => serve para ver repositório remoto
+git pull origin master => pegará as informações do repositório remoto
 
-git remote -v => Para ver mais detalhes do repositório remoto
+git clone https://github.com/Alexferraz2/Curso-de-Git-GitHub => clonará o projeto da url mencionada
 
 
+
+git remote => serve para ver repositório remoto, e dessa forma podemos ver o servidor do repositório.
+
+git remote -v => Para ver mais detalhes do repositório remoto, e dessa forma também podemos ver o servidor do repositório.
+
+git revert --no-edit número do commit => desfaz criando novo commit. Pode usar em branches compartilhadas.
+
+
+Contribuindo com outros projetos:
+
+Entra no projeto ao qual quer contribuir => clica em fork => Ele criará clonará o projeto no seu repositório => depois clica na url do seu repositório que 
+está em seu GitHub => no CMD ou gitbash dentro da pasta do respositório faz clone => faz as alterações => adciona as alterçãoes => comita as alterações
+=> dá um push para o repositório remoto => entra no commit feito e clica em create pull request 
 
 
 
